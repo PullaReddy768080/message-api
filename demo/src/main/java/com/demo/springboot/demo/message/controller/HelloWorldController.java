@@ -26,6 +26,13 @@ public class HelloWorldController {
         return "Welcome";
     }
 
+    @GetMapping ("/get/greeting2")
+
+    @ResponseBody
+    public String getGreeting2(){
+        return "Thank you";
+    }
+
 
 
 
