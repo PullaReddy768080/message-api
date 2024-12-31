@@ -23,7 +23,7 @@ public class HelloWorldController {
 
     @ResponseBody
     public String getGreeting(){
-        return "Thank you";
+        return "Welcome";
     }
 
 
